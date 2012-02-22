@@ -9,10 +9,13 @@ Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
-Requires:         R-MASS R-boot R-stats 
-Requires:         R-VGAM R-MCMCpack R-mvtnorm R-survival R-sandwich R-zoo R-coda R-nnet R-sna R-gee R-systemfit R-mgcv R-lme4 R-anchors R-survey R-quantreg 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-MASS R-boot R-stats
-BuildRequires:    R-VGAM R-MCMCpack R-mvtnorm R-survival R-sandwich R-zoo R-coda R-nnet R-sna R-gee R-systemfit R-mgcv R-lme4 R-anchors R-survey R-quantreg 
+Requires:         R-MASS R-boot R-stats R-VGAM R-MCMCpack R-mvtnorm R-survival
+Requires:         R-sandwich R-zoo R-coda R-nnet R-sna R-gee R-systemfit
+Requires:         R-mgcv R-lme4 R-anchors R-survey R-quantreg 
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-MASS R-boot R-stats R-VGAM R-MCMCpack R-mvtnorm R-survival
+BuildRequires:    R-sandwich R-zoo R-coda R-nnet R-sna R-gee R-systemfit
+BuildRequires:    R-mgcv R-lme4 R-anchors R-survey R-quantreg
 
 %description
 Zelig is an easy-to-use program that can estimate, and help interpret the
