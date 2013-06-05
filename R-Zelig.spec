@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          3.5.3
+Version:          4.1.3
 Release:          1
 Summary:          Everyone's Statistical Software
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/Zelig_4.1-3.tar.gz
 Requires:         R-MASS R-boot R-stats R-VGAM R-MCMCpack R-mvtnorm R-survival
 Requires:         R-sandwich R-zoo R-coda R-nnet R-sna R-gee R-systemfit
 Requires:         R-mgcv R-lme4 R-anchors R-survey R-quantreg 
@@ -58,3 +58,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/demo
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/zideal
+
