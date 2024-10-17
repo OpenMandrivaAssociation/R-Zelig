@@ -9,7 +9,7 @@ Release:          1
 Summary:          Everyone's Statistical Software
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/Zelig_4.1-3.tar.gz
 Requires:         R-MASS R-boot R-stats 
 Requires:         R-VGAM R-MCMCpack R-mvtnorm R-survival R-sandwich R-zoo R-coda R-nnet R-sna R-gee R-systemfit R-mgcv R-lme4 R-anchors R-survey R-quantreg 
